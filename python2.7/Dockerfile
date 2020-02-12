@@ -1,6 +1,6 @@
-FROM tiangolo/uwsgi-nginx:python2.7
+FROM 909713706/nginx-uwsgi:v1
 
-LABEL maintainer="Sebastian Ramirez <tiangolo@gmail.com>"
+LABEL maintainer="Bruce Lin <Bruce.lin@plus.ai>"
 
 RUN pip install flask
 
